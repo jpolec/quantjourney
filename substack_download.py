@@ -20,7 +20,7 @@ from urllib.parse import urlparse
 EMAIL = 'jpolec@gmail.com'
 PASSWORD = ''
 
-BASE_SUBSTACK_URL: str = "https://www.henrikkarlsson.xyz/"  # Substack you want to convert to markdown
+BASE_SUBSTACK_URL: str = "https://quantjourney.substack.com/"  # Substack you want to convert to markdown
 BASE_DIR_NAME: str = "substack_md_files"  # Name of the directory we'll save the files to
 NUM_POSTS_TO_SCRAPE: int = 10  # Set to 0 to scrape all posts
 
